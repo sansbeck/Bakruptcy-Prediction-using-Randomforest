@@ -23,7 +23,7 @@ from imblearn.over_sampling import RandomOverSampler, SMOTE
 warnings.filterwarnings("ignore")
 
 # Load the dataset
-df = pd.read_csv("/path_to_your_data/data.csv")
+df = pd.read_csv("/content/datasett.csv")
 
 # Data overview
 print(df.info())
